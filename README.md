@@ -20,6 +20,6 @@
 
 ## command lines for each file parsing engine
 ### V3
-`"C:\Program Files\AhnLab\V3Lite30\V3LMedic.exe" /manual_scan /target:`
+`"C:\Program Files\AhnLab\V3Lite30\V3LMedic.exe" /manual_scan /target:[targer_path]`
 ### ALYAC
 `"C:\Program Files\ESTsoft\Alyac\AYCon.exe" -s [target_path]`
