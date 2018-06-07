@@ -9,7 +9,7 @@ def main(args):
     imm = Debugger()
     driver = driverlib.Driver()
 
-    ioctl_list = drvier.getIOCTLCodes()
+    ioctl_list = driver.getIOCTLCodes()
     if not len(ioctl_list):
         return "[*] ERROR! Couldn't find any IOCTL codes."
 
